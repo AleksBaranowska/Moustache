@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;    
+}
+
+body {
+    background: white;    
+}
+
+
+/* Navigation */
+
+
+nav {
+    margin: 15px;
+    background: white;    
+}
+  
+.menu {    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin: auto;
+    list-style-type: none;    
+}
+
+/* .menu li {
+    margin: auto;
+} */
+
+.menu a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #87A7B3;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    margin: 0 20px 0px 20px;
+    transition: 0.5s;
+}
+.menu a::after{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #766161;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+
+}
+.menu a:hover {
+    color: #766161;
+  }
+
+.menu a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
