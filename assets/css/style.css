@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300&display=swap');
 
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    border: none;    
+    border: none;
 }
 
 body {
-    background: white;    
+    background: #CDC7BE;
 }
 
 
@@ -16,16 +16,15 @@ body {
 
 nav {
     margin: 15px;
-    background: white;    
 }
-  
-.menu {    
+
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
     margin: auto;
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 /* .menu li {
@@ -33,17 +32,18 @@ nav {
 } */
 
 .menu a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #87A7B3;
+    text-transform: capitalize;
+    color: #766161;
     font-size: 30px;
     font-weight: 600;
     position: relative;
     margin: 0 20px 0px 20px;
     transition: 0.5s;
 }
-.menu a::after{
+
+.menu a::after {
     position: absolute;
     content: "";
     top: 100%;
@@ -56,11 +56,92 @@ nav {
     transition: transform 0.5s;
 
 }
+
 .menu a:hover {
     color: #766161;
-  }
+}
 
 .menu a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
-  }
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* Home section */
+
+div {
+    width: 100%;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 100%; 
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+
+.external {
+    width: 95%;
+    height: 500px;
+    margin: 20px auto;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+.internal {
+    width: 50%;
+    height: 200px;
+    margin: 100px auto;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    vertical-align: middle;
+    align-content: center;
+    position: relative;
+}
+
+.header {
+    max-width: max-content;
+    z-index: 5;
+    margin: -30px auto;
+    font-size: 2vw;
+    background-color: #CDC7BE;
+    padding: 0 5%;
+    /* position: relative; */
+}
+
+#meaning {
+    padding: 5%;
+    font-size: 2vw;
+    text-transform: none;
+    font-weight:200;
+    margin: 0 auto;
+    z-index: 6;
+    display: block;
+    /* position: relative; */
+ }
+ #moustache {
+    z-index: 7;
+    max-width: 50%;
+    background-color: #CDC7BE;
+    margin: 0 auto;
+    /* position: relative; */
+    display: block;
+    
+}
