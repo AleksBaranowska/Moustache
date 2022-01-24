@@ -14,6 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
     <ul class="menu">
       <li><a href="#home" status="active" aria-label="Go to the top of the page" class="active">Home</a></li>
       <li><a href="#timeline" aria-label="Go to Timeline section">Timeline</a></li>
-      <li><a href="#people" aria-label="Go to People information section">People</a></li>
+      <!-- <li><a href="#people" aria-label="Go to People information section">People</a></li> -->
       <li><a href="#styles" aria-label="Go to Styles information section">Styles</a></li>
       <li><a href="#contact" aria-label="Go to Contact information section">Contact</a></li>
     </ul>
@@ -34,7 +35,7 @@
   <!-- Home section -->
 
   <div class="container">
-    <header>
+    <header id="home">
       <div class="external">
         <div class="internal">
           <div class="header">
@@ -42,7 +43,7 @@
           </div>
           <p id="meaning">The strip of facial hair grown above the upper lip</p>
 
-          <img src="C:/Users/olaska/Desktop/Project 1/assets/images/black.png" alt="moustache" id="moustache">
+          <img src="C:///Users/olaska/Desktop/Project 1/assets/images/4.png" alt="moustache" id="moustache">
 
         </div>
       </div>
@@ -53,10 +54,13 @@
   <!-- Timeline section -->
   <section id="timeline-section">
 
-    <h2>Timeline</h2>
-    <p>Brief History of moustache<p>
+
+    <!-- <h2 id="timeline">Timeline</h2>
+    <p>Brief History of moustache<p> -->
 
         <div class="timeline-external">
+          <h2 id="timeline">Timeline</h2>
+    <p>Brief History of moustache.<p>
 
           <div class="timeline-block timeline-block-right">
             <div class="timeline-item"
@@ -209,7 +213,7 @@
 
   <section>
     <div class="container">
-      <h3>People</h3>
+      <h2 id="styles">Styles</h2>
 
       <div class="gallery">
 
@@ -327,19 +331,24 @@
   </section>
 
 
-  <!-- <section>
-    <div class="container">
-      <h3>Styles</h3>
-    </div>
-  </section> -->
-
-
-
-
   <section>
     <div class="container">
-      <h3>Contact</h3>
+      <h2 id="contact">Sign up</h2>
+      <div class="external">
+        <div class="internal">
+      <form>
+      <i class="fas fa-envelope-open-text"></i>
+      <div class="signup-header"><h3>Did you like our website?</h3></div>
+      <!-- <div="signup=text"><p>Subscribe to our newsletter for more useful news and tips regarding moustache.</p></div> -->
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </form>
     </div>
+    
+  </div>
+
   </section>
 
   <footer>
@@ -358,7 +367,3 @@
 
 </body>
 
-<!-- But the
-      mustache as it’s known today came into its own in England during the Elizabethan era. In a heavily bearded time,
-      King James I and
-      his son King Charles I set themselves apart as regal with their respective handlebars. -->
