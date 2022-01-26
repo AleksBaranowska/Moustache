@@ -382,7 +382,7 @@ form {
 }
 
 #icon {
-    width: 80%;
+    /* width: 80%; */
     font-size: 4vw;
     height: 10%;
     padding: 1% 48%;
