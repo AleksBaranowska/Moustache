@@ -184,9 +184,9 @@ p {
     z-index: 1
  } */
 
-.header-timeline,
-.header-styles,
-.header-signup,
+.timeline-header,
+.styles-header,
+.signup-header,
 .video-header {
     border-top: 3px solid #E1F1DD;
     border-bottom: 3px solid #E1F1DD;
