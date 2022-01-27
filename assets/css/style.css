@@ -358,7 +358,7 @@ p {
 
 .gallery-item:hover img {
     opacity: 1;
-    transition: 4 ease;
+    transition: 4;
 }
 
 .gallery-text:hover {
