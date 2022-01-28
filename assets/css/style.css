@@ -201,7 +201,6 @@ p {
     height: auto;
     justify-content: space-between;
     border: 0.2vh solid #766161;
-    /* need to change some values with padding */
     padding: 0.5vh;
     margin: 1vh;
 
@@ -255,11 +254,9 @@ p {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* filter: grayscale(100%); */
     opacity: 1;
     transition: .5s ease;
-    /* filter: blur(5px); */
-
+    
 }
 
 
@@ -440,7 +437,6 @@ i {
 .socials {
     list-style-type: none;
     display: inline-block;
-    /* somehow this attribute is not ignored and it works as intended */
     float: right;
     padding: 1% 3%;
 

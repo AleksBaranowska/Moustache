@@ -30,14 +30,17 @@ Moustache website is created to provide some basic information about moustache f
 - Video
 
   - Video related to main topic.
+  ![](https://res.cloudinary.com/dmbzj2ym7/image/upload/v1643374206/video_dzy6jk.png)
 
 - Contact 
 
   - P_rovides a form to sign up for newsletter with latest news.
+  ![](https://res.cloudinary.com/dmbzj2ym7/image/upload/v1643374343/contact_ui8axc.png)
 
 - Footer
 
   - Provides information about author and social links.
+  ![](https://res.cloudinary.com/dmbzj2ym7/image/upload/v1643374426/footer_smgmfd.png)
 
 
 ## Design
