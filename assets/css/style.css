@@ -171,18 +171,6 @@ p {
     background-color: #CDC7BE;
 }
 
-/* vertical line */
-/* .timeline-external:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -1px;
-    width: 1vh;
-    height: 100%;
-    background: #766161;
-    z-index: 1
- } */
 
 .timeline-header,
 .styles-header,
@@ -256,7 +244,7 @@ p {
     background-repeat: no-repeat;
     opacity: 1;
     transition: .5s ease;
-    
+
 }
 
 

@@ -102,11 +102,11 @@ Moustache website is created to provide some basic information about moustache f
 
   - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
   - [Google Fonts](https://fonts.google.com)
-  - [colorhunt](colorhunt.co)
-  - [cloudinary](https://cloudinary.com)
-  - [beardbrand](https://www.beardbrand.com)
-  - [codepen](https://colorhunt.co)
-  - [w3Schools](https://colorhunt.co)
+  - [Colorhunt](colorhunt.co)
+  - [Cloudinary](https://cloudinary.com)
+  - [ardbrand](https://www.beardbrand.com)
+  - [Codepen](https://colorhunt.co)
+  - [W3Schools](https://colorhunt.co)
 
 
 
